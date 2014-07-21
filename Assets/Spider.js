@@ -6,7 +6,7 @@ var num2: int = 1;
 function Update () 
 {
 
-animation.Play("Walk");
+
 
 
 //   Attack();
