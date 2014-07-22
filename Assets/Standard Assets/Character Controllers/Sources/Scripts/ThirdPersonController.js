@@ -12,6 +12,7 @@ public var trotMaxAnimationSpeed : float = 1.0;
 public var runMaxAnimationSpeed : float = 1.0;
 public var jumpAnimationSpeed : float = 1.15;
 public var landAnimationSpeed : float = 1.0;
+var name: String = "mainChar";
 
 private var _animation : Animation;
 
