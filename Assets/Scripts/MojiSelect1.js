@@ -13,8 +13,8 @@ renderer.material.color=Color.white;
 function OnMouseUp(){
 
 if (isChoice==true) {
-
-PlayerPrefs.SetString("Moji", "Moji1");
+PlayerPrefs.SetInt("Moji", 1);
+PlayerPrefs.Save();
 //Load Level One
 Application.LoadLevel(1);
 }
