@@ -1,4 +1,5 @@
 ﻿
+//vartest
 var num1: int = 0;
 var num2: int = 1;
 var alphaX: double = .5;
