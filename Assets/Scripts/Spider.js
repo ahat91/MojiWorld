@@ -11,15 +11,7 @@ var randomZ = Random.RandomRange(0,1);
 var randomRotation = Random.RandomRange(0,100);
 var randomRot: int;
 */
-function OnTriggerEnter(other : Collider)
-{
-   if (other.name == "SideWall")
-   {
-   Debug.Log("It hit the wall");
-  //Vector3 relativePos =  transform.position ;
-   //transform.RotateAround(transform.position, 75);
-}
-}
+
 function Update () 
 {
 /*
