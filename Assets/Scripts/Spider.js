@@ -3,7 +3,7 @@ var num1: int = 0;
 var num2: int = 1;
 var alphaX: double = .5;
 var Distance;
-var moveSpeed : float = .10;
+var moveSpeed : float = .30;
 var turnSpeed : float = 50;
 /*
 var randomX = Random.RandomRange(0,1);
