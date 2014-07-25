@@ -27,18 +27,6 @@ Material:
         second: .5
       data:
         first:
-          name: _waveStrength
-        second: 12
-      data:
-        first:
-          name: _waveSpeed
-        second: 3.5999999
-      data:
-        first:
-          name: _waveAmountScale
-        second: 1.39999998
-      data:
-        first:
           name: _BaseLight
         second: .349999994
       data:
@@ -49,6 +37,18 @@ Material:
         first:
           name: _Occlusion
         second: 7.5
+      data:
+        first:
+          name: _waveStrength
+        second: 12
+      data:
+        first:
+          name: _waveSpeed
+        second: 3.5999999
+      data:
+        first:
+          name: _waveAmountScale
+        second: 1.39999998
     m_Colors:
       data:
         first:
