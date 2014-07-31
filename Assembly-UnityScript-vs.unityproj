@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\MojiSelect2.js" />
      <Compile Include="Assets\Scripts\Spider.js" />
      <Compile Include="Assets\Scripts\SpiderAI.js" />
+     <Compile Include="Assets\Scripts\StartGameBtn.js" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
