@@ -4,7 +4,7 @@ var num1: int = 0;
 var num2: int = 1;
 var alphaX: double = .5;
 var Distance;
-var moveSpeed : float = .30;
+public var moveSpeed : float = 3;
 var turnSpeed : float = 50;
 /*
 var randomX = Random.RandomRange(0,1);
@@ -26,8 +26,8 @@ else
 	*/
 	
 animation.Play("Walk");
-var position: Vector3 = Vector3(0, 0, 3);
-   transform.Translate(position * moveSpeed * Time.deltaTime);
+var position: Vector3 = Vector3(0,0,moveSpeed);
+   transform.Translate(position * Time.deltaTime);
  //transform.rotation = Quaternion.RotateTowards(transform.rotation, target.rotation, step);
 
 

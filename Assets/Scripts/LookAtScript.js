@@ -22,9 +22,11 @@ function Update ()
 {
    if (goToPlayer)
    {
+   moveSpeed.getComponent(Spider).moveSpeed
    Debug.Log(goToPlayer);
     var relativePos : Vector3 = target.position - transform.position;
     transform.rotation = Quaternion.LookRotation(relativePos);
     }
+
     
 }
