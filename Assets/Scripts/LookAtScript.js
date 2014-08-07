@@ -2,6 +2,7 @@
 
 public var target : Transform;
 private var goToPlayer : boolean = true;
+private var Spider : Spider;
 
 function OnTriggerEnter(other : Collider)
 {
@@ -22,11 +23,14 @@ function Update ()
 {
    if (goToPlayer)
    {
-   moveSpeed.getComponent(Spider).moveSpeed
+   Spider = GetComponent(Spider);
+   Spider.moveSpeed = 7;
    Debug.Log(goToPlayer);
     var relativePos : Vector3 = target.position - transform.position;
     transform.rotation = Quaternion.LookRotation(relativePos);
     }
+    else
+    Spider.moveSpeed = 3;
 
     
 }
