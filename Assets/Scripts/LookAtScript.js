@@ -23,14 +23,16 @@ function Update ()
 {
    if (goToPlayer)
    {
-   Spider = GetComponent(Spider);
+   Spider = GetComponent("Spider");
+   
    Spider.moveSpeed = 7;
-   Debug.Log(goToPlayer);
+   Debug.Log(Spider.moveSpeed);
     var relativePos : Vector3 = target.position - transform.position;
     transform.rotation = Quaternion.LookRotation(relativePos);
     }
     else
     Spider.moveSpeed = 3;
+    Debug.Log(Spider.moveSpeed);
 
     
 }
