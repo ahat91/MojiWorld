@@ -2,13 +2,22 @@
 
 public var target : Transform;
 private var goToPlayer : boolean = true;
-private var Spider : Spider;
+public var Spider : Spider;
+public var Action : String;
 
+Action = "Walk";
+function OnTriggerExit (other : Collider)
+{
+if (other.name == "Player1")
+Action = "Walk";
+}
 function OnTriggerEnter(other : Collider)
 {
    if (other.name == "Player1")
    {
+   Action = "Attack";
    goToPlayer = false;
+   Debug.Log("I am happy you are here");
    }
    if (other.name == "SideWall")
    {
@@ -23,7 +32,7 @@ function Update ()
 {
    if (goToPlayer)
    {
-   Spider = GetComponent("Spider");
+   //Spider = GetComponent("Spider");
    
    Spider.moveSpeed = 7;
    Debug.Log(Spider.moveSpeed);
