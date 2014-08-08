@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-public var target : Transform;
+/*public var target : Transform;
 private var goToPlayer : boolean = true;
 private var Spider : Spider;
 
@@ -35,4 +35,4 @@ function Update ()
     Debug.Log(Spider.moveSpeed);
 
     
-}
+}*/
